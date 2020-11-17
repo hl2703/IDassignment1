@@ -1,3 +1,4 @@
+
 /*top image*/
 .qicon {
     margin-left: auto;
@@ -12,7 +13,7 @@ body {
 }
 /* homepage section*/
 #intro,#benefits,#reviews {
-    height: 100vh;
+    height: 120vh;
     border: 1px solid lawngreen;
     border-radius: 8px;
     display: flex;
@@ -43,16 +44,16 @@ body {
    
 }
 #intro {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)), url("images\grass.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)), url("../images/grass.jpg");
     
 }
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
   
 #benefits{
   text-align:left;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)), url("images\garden.jpeg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)), url("../images/garden.jpeg");
 
 }
 
@@ -65,7 +66,7 @@ body {
     display: grid;
     grid-template-columns: auto auto ;
     background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
-    url("images\bulb.jpeg");
+    url("../images/bulb.jpeg");
     padding: 10px;
   }
 
