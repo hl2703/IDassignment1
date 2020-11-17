@@ -1,0 +1,18 @@
+/*tips. html grid section*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
+    url("images/bulb.jpeg");
+    padding: 10px;
+  }
+  
+  .grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+
+  
+  
