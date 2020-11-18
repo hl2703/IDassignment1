@@ -143,6 +143,84 @@ margin:0 auto;
   text-align: center;
   width:300px;
 }
+
+/*features section*/
+#featuresone{
+  border: 1px solid rgb(0, 4, 252);
+  border-radius: 8px;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
+  url("../images/htreasure.jpg");
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+
+}
+
+#features_p{
+  border-radius: 8px;
+  border: 1px solid rgba(45, 115, 180, 0.87);
+  padding:10px;
+  background-color:rgba(248, 230, 169, 0.658);
+  
+}
+
+
+#feamain{
+ background-color: lightblue;
+ border: 1px solid rgb(33, 170, 67);
+ border-radius: 8px;
+ text-align: center;
+ /*display:flex;
+ flex-direction: column;*/
+
+}
+.featurepic{
+  
+  width: 300px;
+  height: 500px;
+
+  
+
+}
+
+/*news section*/
+#newstop{
+  text-align: center;
+  border: 1px solid rgb(71, 15, 117);
+  border-radius: 8px;
+  background-image: 
+  url("../images/1111.jpeg");
+  background-size: cover; 
+  background-position: center ; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+#newstop h1{
+  border: 1px solid rgb(220, 216, 255);
+  border-radius: 8px;
+  padding: 10px 50px;
+  text-shadow: 2px 2px 4px #730cc7;
+  background-color: rgba(10, 10, 2, 0.815);
+  color: white;
+ 
+}
+#newsmain{
+  text-align: center;
+}
+
+
 /*tips. html grid section*/
 .grid-container {
     display: grid;
