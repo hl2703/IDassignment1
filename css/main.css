@@ -7,7 +7,7 @@ header {
   left: 0;
   right: 0;
   height: 50px;
-  line-height: 50px;
+  line-height: 30px;
   background-color: rgba(233, 41, 41, 0.575);
   border: 2px solid red;
   border-radius: 8px;
@@ -18,14 +18,10 @@ header * {
   display: inline;
   color:white;
 }
-header ul {
-margin-left:160px;
-}
+
 
 header li {
-  margin-left: 50px;
-  
-  
+  margin-left: 10px;
 }
 
 /*top image*/
@@ -240,8 +236,38 @@ margin:0 auto;
 }
 
 
-/*tips. html grid section*/
+/*web features adjustments*/
 @media (min-width: 992px) {
+  /*menu bar styling*/
+    header {
+        
+      display: flex;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 50px;
+      line-height: 50px;
+      background-color: rgba(233, 41, 41, 0.575);
+      border: 2px solid red;
+      border-radius: 8px;
+      color:white;
+    }
+
+    header * {
+      display: inline;
+      color:white;
+    }
+    header ul {
+    margin-left:160px;
+    }
+
+    header li {
+      margin-left: 50px;
+      
+      
+    }
+    /*tips grid section*/
   .grid-container {
     display: grid;
     grid-template-columns: auto auto ;
