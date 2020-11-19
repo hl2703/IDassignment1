@@ -224,7 +224,13 @@ margin:0 auto;
   background-color: black;
   color: white;
 }
-
+.newsimg{
+  width: 90%;
+}
+iframe{
+  width:90%;
+ 
+}
 /*tips*/
 .grid-container{
   background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
