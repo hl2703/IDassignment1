@@ -162,6 +162,12 @@ margin:0 auto;
 
 
 }
+#feapara{
+  border: 1px solid rgba(30, 151, 36, 0.87);
+  border-radius: 8px;
+  padding:10px;
+  background-color:rgba(255, 251, 251, 0.39);
+}
 
 #features_p{
   border-radius: 8px;
@@ -196,7 +202,7 @@ margin:0 auto;
   border: 1px solid rgb(71, 15, 117);
   border-radius: 8px;
   background-image: 
-  url("../images/1111.jpeg");
+  url("../images/firework.jpg");
   background-size: cover; 
   background-position: center ; 
   background-repeat: no-repeat; 
@@ -208,23 +214,35 @@ margin:0 auto;
 
 }
 #newstop h1{
-  border: 1px solid rgb(220, 216, 255);
+  border: 1px solid rgba(30, 151, 36, 0.87);
   border-radius: 8px;
-  padding: 10px 50px;
-  text-shadow: 2px 2px 4px #730cc7;
-  background-color: rgba(10, 10, 2, 0.815);
-  color: white;
+  padding:10px;
+  background-color:rgba(255, 251, 251, 0.39);
+ 
  
 }
 #newsmain{
   text-align: center;
 }
-/*tips*/
+.events{
+  background-color: black;
+  color: white;
+}
 
+/*tips*/
+.grid-container{
+  background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
+    url("../images/bulb.jpeg");
+  background-size: cover; 
+  background-position: center ; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
 
 
 /*tips. html grid section*/
-.grid-container {
+@media (min-width: 992px) {
+  .grid-container {
     display: grid;
     grid-template-columns: auto auto ;
     background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
@@ -241,4 +259,6 @@ margin:0 auto;
   
 
   
+}
+
   
