@@ -208,13 +208,17 @@ margin:0 auto;
   background-image: 
   url("../images/firework.jpg");
   background-size: cover; 
-  background-position: center ; 
+  background-position: center center; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
+
   height: 100vh;
   justify-content: center;
   align-items: center;
-  text-align: center;
+    
+  padding-top:150px;
+  
+  text-align: center; 
 
 }
 #newstop h1{
@@ -222,6 +226,7 @@ margin:0 auto;
   border-radius: 8px;
   padding:10px;
   background-color:rgba(255, 251, 251, 0.39);
+  
  
  
 }
@@ -247,6 +252,25 @@ iframe{
   background-position: center ; 
   background-repeat: no-repeat; 
   background-attachment: fixed; 
+}
+.tipsdiv{
+  border: 1px solid lawngreen;
+  border-radius: 8px;
+  background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
+  url("../images/sky.jpeg");
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+    
+  padding-top:150px;
+  
+  text-align: center; 
+  
 }
 
 
