@@ -181,7 +181,6 @@ margin:0 auto;
   
 }
 
-
 #feamain{
  background-color: lightblue;
  border: 1px solid rgb(33, 170, 67);
@@ -195,8 +194,6 @@ margin:0 auto;
   
   width: 300px;
   height: 500px;
-
-  
 
 }
 
@@ -226,9 +223,7 @@ margin:0 auto;
   border-radius: 8px;
   padding:10px;
   background-color:rgba(255, 251, 251, 0.39);
-  
- 
- 
+
 }
 #newsmain{
   text-align: center;
@@ -245,9 +240,9 @@ iframe{
  
 }
 /*tips*/
+
 .grid-container{
-  background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
-    url("../images/bulb.jpeg");
+  background-color:	rgb(176,224,230);
   background-size: cover; 
   background-position: center ; 
   background-repeat: no-repeat; 
@@ -272,8 +267,21 @@ iframe{
   text-align: center; 
   
 }
+#toppara{
+  border: 1px solid rgb(228, 47, 47);
+  border-radius: 8px;
+  padding:10px 20px;
+  
+  background-color:rgba(235, 235, 224, 0.5);
 
+}
+#tips{
+  text-align: center;
+}
 
+#moretips{
+  background-image: url("../images/blue.jpeg");
+}
 /*web features adjustments*/
 @media (min-width: 992px) {
   /*menu bar styling*/
@@ -306,23 +314,61 @@ iframe{
       
     }
     /*tips grid section*/
-  .grid-container {
-    display: grid;
-    grid-template-columns: auto auto ;
-    background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
-    url("../images/bulb.jpeg");
-    padding: 10px;
-  }
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto ;
+      background-image:linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)),  
+      url("../images/bulb.jpeg");
+      padding: 10px;
+    }
 
-.grid-item {
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
+    .grid-item {
+      padding: 20px;
+      font-size: 30px;
+      text-align: center;
+    }
 
-  
+    .container{
+      background-image: 
+      url("../images/qcart.jpeg");
+      background-size: cover; 
+      height: 180px;  
+      position: relative;
+      width:100%;
+      margin: 0 auto;
+      
+    }
 
-  
+    .overlay {
+      position: absolute;
+      bottom: 100%;
+      left: 0;
+      right: 0;
+      background-color: rgb(140, 231, 131);
+      overflow: hidden;
+      width: 100%;
+      height:0;
+      transition: .5s ease;
+    }
+    
+    .container:hover .overlay {
+      bottom: 0;
+      height: 100%;
+    }
+    
+    .text {
+      white-space: nowrap; 
+      color: rgb(243, 11, 11);
+      font-size: 15px;
+      position: absolute;
+      overflow: hidden;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      font-family:"Candara", cursive, sans-serif ;
+    }
+ 
 }
 
   
