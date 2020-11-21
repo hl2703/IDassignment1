@@ -89,7 +89,9 @@ body {
   background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)), url("../images/garden.jpeg");
 
 }
-
+#reviews{
+  background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)), url("../images/grass.jpg");
+}
 #reviewspic{
   padding: 10px;
   width:100%;
