@@ -287,6 +287,10 @@ iframe{
 #moretips{
   background-image: url("../images/blue.jpeg");
 }
+#shoplink{
+  height:150px;
+  border-radius: 100px;
+}
 /*web features adjustments*/
 @media (min-width: 992px) {
   /*menu bar styling*/
@@ -373,6 +377,7 @@ iframe{
       -ms-transform: translate(-50%, -50%);
       font-family:"Candara", cursive, sans-serif ;
     }
+    
  
 }
 
