@@ -78,7 +78,7 @@ body {
    
 }
 #intro {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)), url("../images/grass.jpg");
+    background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.438)), url("../images/grass.jpg");
     
 }
 * {
@@ -87,7 +87,7 @@ body {
   
 #benefits{
   text-align:left;
-  background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.507)), url("../images/garden.jpeg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.219),rgba(255, 255, 255, 0.575)), url("../images/garden.jpeg");
 
 }
 #reviews{
