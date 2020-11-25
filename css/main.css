@@ -176,12 +176,13 @@ margin:0 auto;
   background-color:rgba(255, 251, 251, 0.39);
 }
 
-#features_p{
+.features_p{
   border-radius: 8px;
   border: 1px solid rgba(45, 115, 180, 0.87);
   padding:10px;
   background-color:rgba(248, 230, 169, 0.658);
-  
+  width:50%;
+  margin:0 auto;
 }
 
 #feamain{
@@ -189,6 +190,7 @@ margin:0 auto;
  border: 1px solid rgb(33, 170, 67);
  border-radius: 8px;
  text-align: center;
+
  /*display:flex;
  flex-direction: column;*/
 
