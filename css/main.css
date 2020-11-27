@@ -1,6 +1,5 @@
 /*menu bar styling*/
 header {
-    
   display: flex;
   position: fixed;
   top: 0;
@@ -18,7 +17,6 @@ header * {
   display: inline;
   color:white;
 }
-
 
 header li {
   margin-left: 10px;
@@ -103,8 +101,6 @@ body {
   text-align: center;
   
 }
-
-
 #basics{
 height: 100vh;
 border: 1px solid rgb(182, 155, 245);
@@ -242,7 +238,9 @@ margin:0 auto;
 }
 iframe{
   width:90%;
- 
+}
+#contact{
+  font-family: 'Bebas Neue', cursive;;
 }
 /*tips*/
 
@@ -377,7 +375,6 @@ iframe{
       -ms-transform: translate(-50%, -50%);
       font-family:"Candara", cursive, sans-serif ;
     }
-    
  
 }
 
