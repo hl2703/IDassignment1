@@ -146,9 +146,9 @@ ii.	Try to submit the empty form and verify that an error message about the requ
 iii.Try to submit the form with an invalid email address and verify that a relevant error message appears
 iv.	Try to submit the form with all inputs valid and verify that a success message appears.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-2. Page adjust according to mobile and web view. 
-3. Go to tips section. Hovering over images for tips section can only be done on the desktop view. For mobile view the tips section will be plain text. 
-4. Images resize according to different screen size.
+1. Page adjust according to mobile and web view. 
+2. Go to tips section. Hovering over images for tips section can only be done on the desktop view. For mobile view the tips section will be plain text. 
+3. Images resize according to different screen size.
 Project was tested across different browsers(chrome, firefox, Microsoft edge) and content was consistent across browsers.
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
@@ -177,4 +177,4 @@ https://www.w3schools.com/cssref/default.asp
 https://www.w3schools.com/howto/howto_css_transition_hover.asp
 
 
-
+Done by: Hannah Loh(P01)
