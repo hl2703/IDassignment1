@@ -187,9 +187,6 @@ margin:0 auto;
  border-radius: 8px;
  text-align: center;
 
- /*display:flex;
- flex-direction: column;*/
-
 }
 .featurepic{
   
@@ -220,10 +217,10 @@ margin:0 auto;
 
 }
 #newstop h1{
-  border: 1px solid rgba(30, 151, 36, 0.87);
+  border: 1px solid rgba(66, 39, 139, 0.87);
   border-radius: 8px;
   padding:10px;
-  background-color:rgba(255, 251, 251, 0.39);
+  background-color:rgba(255, 251, 251, 0.26);
 
 }
 #newsmain{
